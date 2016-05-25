@@ -21,7 +21,7 @@
         <button class="btn btn-default" ng-click="model.upRating(movie)">
           <span class="glyphicon glyphicon-plus"></span>
         </button>
-        <a ng-link="['Details', {id: movie.id}]" class="btn btn-default">
+        <button ng-click="model.goTo(movie.id)" class="btn btn-default">
           <span class="glyphicon glyphicon-zoom-in"></span>
         </a>
       </td>
