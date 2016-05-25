@@ -6,7 +6,7 @@
   module.value("$routerRootComponent", "movieApp");
 
   module.component("appAbout", {
-    template: "This is the about page"
+    template: "This is the about page 2"
   });
 
 }());
